@@ -42,8 +42,8 @@ class Game(object):
         self.tboard_text = ['This is a test.']
         self.tboard_x = 120
         self.tboard_y = 120
-        self.tboard_width = 125
-        self.tboard_height = 30
+        self.tboard_width = 150
+        self.tboard_height = 50
         self.tboard_rect = pygame.Rect(self.tboard_x, self.tboard_y, self.tboard_width, self.tboard_height)
         self.tboard_bgcolor = pygame.Color(50, 20, 0)
         self.tboard = MessageBoard(self.screen,

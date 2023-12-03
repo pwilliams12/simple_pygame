@@ -125,6 +125,8 @@ class MessageBoard(object):
             self.rect.top + self.border_width,
             self.rect.width - self.border_width * 2,
             self.rect.height - self.border_width * 2)
+
+        print("Rectagle dim: BL = {}, TR = {} ".format(text_rect.bottomleft, text_rect.topright))
             
         x_pos = text_rect.left
         y_pos = text_rect.top 
